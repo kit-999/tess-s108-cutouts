@@ -1,0 +1,64 @@
+{
+ "tic": 593228,
+ "sector": 108,
+ "ra": 71.8464195509792,
+ "dec": -27.8432287903948,
+ "tmag": 9.22216,
+ "teff": 3356,
+ "contratio": 2.26678228,
+ "hip": null,
+ "sectors_in_tesscut": [
+  5,
+  32,
+  98,
+  106,
+  107,
+  108,
+  109
+ ],
+ "request_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=71.8464195509792&dec=-27.8432287903948&y=15&x=15&sector=108",
+ "fetch_started_utc": "2026-10-26T17:34:13Z",
+ "fetch_done_utc": "2026-10-26T17:34:18Z",
+ "served_from": "stpubdata.s3.amazonaws.com",
+ "fits_name": "tess-s0108-3-2_71.846420_-27.843229_15x15_astrocut.fits",
+ "fits_bytes": 50639040,
+ "fits_sha256": "117d4dab4adb0bf1dfebd043f2ba4b2f6ddd4dc0ab44421ff3667a200b85c524",
+ "data_sha256_time_flux_quality": "05cf919b03bf0e2374ed9c237b61a113bd48dd38462e4213a7684121deaacb23",
+ "camera": 3,
+ "ccd": 2,
+ "date_obs": "2026-09-07T11:36:41.761",
+ "date_end": "2026-10-04T20:22:04.099",
+ "frames": 11083,
+ "frames_used": 10999,
+ "cadence_s": 200.0,
+ "aperture_px": 28,
+ "aperture_touches_edge": false,
+ "scatter_ppm_per_frame": 3861,
+ "scatter_ppm_1h_bins": 3857,
+ "deepest_1h_bin_ppt": -7.362,
+ "deepest_1h_bin_btjd": 4307.3052,
+ "strongest_sinusoids_cpd_ppt": [
+  [
+   0.155,
+   4.327
+  ],
+  [
+   0.422,
+   0.534
+  ],
+  [
+   1.159,
+   0.262
+  ]
+ ],
+ "box_search": {
+  "period_d": 6.48497,
+  "depth_ppt": 4.9904,
+  "depth_snr": 9.78,
+  "duration_h": 4.8,
+  "first_mid_btjd": 4294.4317,
+  "events_with_data": 4,
+  "sde": 2.55
+ },
+ "status": "ok"
+}
