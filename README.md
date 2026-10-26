@@ -1,4 +1,4 @@
-# TESS Sector 108: first-look light curves for 30 TIC IDs
+# TESS Sectors 108 and 109: first-look light curves for 30 TIC IDs
 
 Fetched on 2026-10-26, on request, for a community vetting game. **A first look, not a vet.** Sector 108 had no SPOC or QLP
 light curves in MAST when these were fetched, so each light curve here is my own simple aperture photometry on a TESSCut
@@ -67,6 +67,48 @@ its 11,083 frames (the other 84 carry a quality flag).
 | 28 | [740069](stars/TIC740069_s108_lc.png) | 8.19 | wiggles over days, 10 ppt top to bottom | 1,778 | 5.236 d, 2.51 ppt, SDE 2.3 | 2026-10-26T17:37:23Z | `e2429a357cf8` |
 | 29 | [767526](stars/TIC767526_s108_lc.png) | 5.70 | bright and red (Teff 3884 K): a slow swing of 14 ppt across the sector | 6,458 | 13.678 d, 4.96 ppt, SDE 2.9 | 2026-10-26T17:37:29Z | `a9167d31ba04` |
 | 30 | [767943](stars/TIC767943_s108_lc.png) | 8.07 | wiggles over a day or two, 4.7 ppt top to bottom | 1,076 | 5.164 d, 1.49 ppt, SDE 2.2 | 2026-10-26T17:37:36Z | `16cdee00e25c` |
+
+## Sector 109, first half
+
+The same method on Sector 109's first half (2026-10-05 to 2026-10-18, camera 2, CCD 1):
+every star used 5,570 of its 5,583 frames. Files: `stars/TIC<id>_s109_*`.
+
+| rank | TIC (plot) | what the curve shows | scatter, 1-h bins (ppm) | fetched (UTC) | data hash (start) |
+|---|---|---|---|---|---|
+| 1 | [589826](stars/TIC589826_s109_lc.png) | the same fast pulsation, 41.5 and 44.9 cycles a day; no dips stand out | 283 | 2026-10-26T17:43:41Z | `31ffc183bd5a` |
+| 2 | [589906](stars/TIC589906_s109_lc.png) | wanders by about 5 ppt, as in 108; no dips stand out | 764 | 2026-10-26T17:43:46Z | `8c35904ed568` |
+| 3 | [590274](stars/TIC590274_s109_lc.png) | the same small wave near one day; no dips stand out | 393 | 2026-10-26T17:43:52Z | `6542ce90076b` |
+| 4 | [592638](stars/TIC592638_s109_lc.png) | the same small wiggles and sharp periodogram peaks | 305 | 2026-10-26T17:43:57Z | `7074909e3fe4` |
+| 5 | [593228](stars/TIC593228_s109_lc.png) | the blended pair again: the slow swing (every 6.4 days), and a flare-shaped jump of 28% at BTJD 4325.44, just before the mid-sector gap, rising in one frame and fading over hours | 4,562 | 2026-10-26T17:44:19Z | `d509333aee8e` |
+| 6 | [593230](stars/TIC593230_s109_lc.png) | the same blended light (rank 5) | 4,562 | 2026-10-26T17:44:41Z | `d509333aee8e` |
+| 7 | [595279](stars/TIC595279_s109_lc.png) | a slow drift; no dips stand out | 324 | 2026-10-26T17:44:46Z | `6097e1d4d818` |
+| 8 | [607907](stars/TIC607907_s109_lc.png) | quiet: 0.8 ppt top to bottom | 178 | 2026-10-26T17:44:51Z | `4b5aaefffb92` |
+| 9 | [608932](stars/TIC608932_s109_lc.png) | small wiggles, 1.9 ppt; no dips stand out | 402 | 2026-10-26T17:44:57Z | `a53679703410` |
+| 10 | [610232](stars/TIC610232_s109_lc.png) | the same smooth swing, 13 ppt top to bottom | 5,341 | 2026-10-26T17:45:16Z | `337df105e072` |
+| 11 | [612908](stars/TIC612908_s109_lc.png) | quiet; no bumps at this half's start | 307 | 2026-10-26T17:45:21Z | `90c003d697d4` |
+| 12 | [614129](stars/TIC614129_s109_lc.png) | a dip at the start, then a slow rise, 5.6 ppt | 1,915 | 2026-10-26T17:45:26Z | `3a79f108133b` |
+| 13 | [614556](stars/TIC614556_s109_lc.png) | quiet; its box search's best period, 6.56 days, is shared by 4 different stars, so it is the instrument | 177 | 2026-10-26T17:45:45Z | `b758b7530392` |
+| 14 | [615133](stars/TIC615133_s109_lc.png) | the same wave, every 0.881 days here (108: 0.888), 29 ppt top to bottom | 11,628 | 2026-10-26T17:45:49Z | `87f739421fcd` |
+| 15 | [627296](stars/TIC627296_s109_lc.png) | a hump, then a slow decline, 7.8 ppt | 1,460 | 2026-10-26T17:45:55Z | `c0782349c776` |
+| 16 | [664269](stars/TIC664269_s109_lc.png) | a ramp at the start, then quiet, as in 108 | 900 | 2026-10-26T17:46:00Z | `5232e127aa9c` |
+| 17 | [672060](stars/TIC672060_s109_lc.png) | quiet; its box search's best period, 6.56 days, is shared by 4 different stars, so it is the instrument | 283 | 2026-10-26T17:46:06Z | `3eeabe23fe62` |
+| 18 | [672624](stars/TIC672624_s109_lc.png) | the same wave, every 0.552 days, 14 ppt top to bottom | 3,005 | 2026-10-26T17:46:11Z | `e0505091508b` |
+| 19 | [675445](stars/TIC675445_s109_lc.png) | the big slow swing, and a flare-shaped jump of 39% above the level before it at BTJD 4328.63, rising in under an hour and fading over a day or more; no other star shows anything then | 57,267 | 2026-10-26T17:46:17Z | `70f6eea76ccb` |
+| 20 | [682256](stars/TIC682256_s109_lc.png) | faint and quiet: 2.6 ppt top to bottom | 731 | 2026-10-26T17:46:23Z | `5b32dca0961d` |
+| 21 | [682491](stars/TIC682491_s109_lc.png) | the slow hump again, 2.4 ppt | 754 | 2026-10-26T17:46:30Z | `df24552d984f` |
+| 22 | [683071](stars/TIC683071_s109_lc.png) | wiggles, 3.6 ppt top to bottom | 983 | 2026-10-26T17:46:50Z | `89b4d19eebc0` |
+| 23 | [709603](stars/TIC709603_s109_lc.png) | quiet; its box search's best period, 6.56 days, is shared by 4 different stars, so it is the instrument | 201 | 2026-10-26T17:46:54Z | `6c714aa5a0c5` |
+| 24 | [710187](stars/TIC710187_s109_lc.png) | quiet, a slow drift of 2.1 ppt | 536 | 2026-10-26T17:47:01Z | `cfe498922854` |
+| 25 | [711970](stars/TIC711970_s109_lc.png) | a ramp at the start, then a slow rise, 3.2 ppt | 1,321 | 2026-10-26T17:47:06Z | `235ec2f83fa7` |
+| 26 | [737327](stars/TIC737327_s109_lc.png) | the same wave, every 1.65 days, shrinking through this half, 32 ppt top to bottom | 9,945 | 2026-10-26T17:47:12Z | `e3fbdcdf6dbc` |
+| 27 | [737546](stars/TIC737546_s109_lc.png) | the same eclipses: 5 primaries, each within 33 minutes of the time 108's period predicts, at the same 32% depth, with the secondaries between | 24,139 | 2026-10-26T17:47:21Z | `7425f753d0dd` |
+| 28 | [740069](stars/TIC740069_s109_lc.png) | wiggles, 7 ppt, with a deeper dip of 5.4 ppt near BTJD 4324.3 (about a day wide) | 1,413 | 2026-10-26T17:47:26Z | `840a85ea79ec` |
+| 29 | [767526](stars/TIC767526_s109_lc.png) | the slow swing, 14 ppt; its box search's best period, 6.56 days, is shared by 4 different stars, so it is the instrument | 4,636 | 2026-10-26T17:47:30Z | `05a9fce0e487` |
+| 30 | [767943](stars/TIC767943_s109_lc.png) | wiggles, 3.6 ppt top to bottom | 810 | 2026-10-26T17:47:36Z | `d373e338ab4f` |
+
+- A box-search period shared by different stars belongs to the instrument: four stars here land on the same 6.56 days.
+- The two flare-shaped jumps (ranks 5 and 6 at BTJD 4325.44, rank 19 at 4328.63) happen at different times, and no other star
+  of the 30 shows anything at either moment.
 
 ## Read with care
 
