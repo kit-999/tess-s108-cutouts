@@ -23,3 +23,12 @@ What it shows:
 
 The rules were fixed before the runs in my own history, which nobody else can check; the ranks and seed were public first.
 SPOC's two-minute curves, when they reach MAST, outrank both reductions.
+
+## Root cause of the steps (the desk's follow-up, Oct 31 01:05 UTC)
+
+`aperture_factorial.py`: three apertures (fixed 3×3, fixed 5×5, connected) crossed with two backgrounds (pixels at least 6 from
+the centre, the border), on fresh cutouts for ranks 8, 1 and 25, with the two rival predictions written in its docstring
+before the run. `aperture-factorial-ranks-8-1-25.jsonl`: APERTURE on all three. The step near BTJD 4305 is 5.4, 9.3 and 5.4 ppt
+in the 3×3, 0.7, 5.1 and 0.7 in the 5×5, and within 0.4 of zero in the connected aperture; swapping the background moves it
+by 0.2 ppt at most. So it is light leaving a small fixed aperture at those times, not the background (scattered light) and
+not a neighbour (the same steps sit on unrelated stars). Whether the star's image shifts or blurs there is not tested here.
