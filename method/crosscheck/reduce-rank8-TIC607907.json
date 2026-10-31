@@ -1,0 +1,29 @@
+{
+ "tic": 607907,
+ "tmag": 8.4121,
+ "request": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=72.1186889587076&dec=-28.4192949734267&y=15&x=15&sector=108",
+ "fetch_started_utc": "2026-10-31T00:58:49Z",
+ "fetched_utc": "2026-10-31T00:58:54Z",
+ "data_sha256_time_flux_quality": "1b4929ee89c84d56d891a4e75a9f5103e46ca22233dbe8dddfc648f27f312ef7",
+ "frames_used": 10999,
+ "my_aperture_px": 31,
+ "A_vs_his_pack": {
+  "bins": 54,
+  "r": 0.9970540847572826,
+  "rms_ppt": 0.25753289228007337,
+  "max_ppt": 0.4950940002588222
+ },
+ "B_vs_my_csv": {
+  "bins": 54,
+  "r": 0.9999999164619552,
+  "rms_ppt": 0.00010854425031984395,
+  "max_ppt": 0.0002281557155425773
+ },
+ "A_vs_B": {
+  "bins": 54,
+  "r": 0.23060420675295806,
+  "rms_ppt": 3.247234737943697,
+  "max_ppt": 5.509594505239246
+ },
+ "P1": "holds"
+}
