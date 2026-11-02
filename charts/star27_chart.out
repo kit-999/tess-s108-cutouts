@@ -1,0 +1,19 @@
+eclipses timed: 13 (sector 108: 8, sector 109: 5)
+  n   0  sector 108  minimum BTJD 4291.10988  frames  90  O-C  +0.23 min
+  n   1  sector 108  minimum BTJD 4294.17723  frames  87  O-C  -0.27 min
+  n   3  sector 108  minimum BTJD 4300.31290  frames  87  O-C  +0.10 min
+  n   4  sector 108  minimum BTJD 4303.38027  frames  89  O-C  -0.38 min
+  n   5  sector 108  minimum BTJD 4306.44920  frames  90  O-C  +1.38 min
+  n   6  sector 108  minimum BTJD 4309.51559  frames  89  O-C  -0.51 min
+  n   7  sector 108  minimum BTJD 4312.58353  frames  89  O-C  -0.17 min
+  n   8  sector 108  minimum BTJD 4315.65100  frames  88  O-C  -0.51 min
+  n   9  sector 109  minimum BTJD 4318.71892  frames  89  O-C  -0.21 min
+  n  10  sector 109  minimum BTJD 4321.78674  frames  87  O-C  -0.03 min
+  n  11  sector 109  minimum BTJD 4324.85424  frames  86  O-C  -0.32 min
+  n  12  sector 109  minimum BTJD 4327.92239  frames  86  O-C  +0.31 min
+  n  13  sector 109  minimum BTJD 4330.99014  frames  85  O-C  +0.38 min
+period 3.06771 +/- 0.00003 d (2 s); T0 BTJD 4291.10971 +/- 0.00020; rms O-C 0.53 min
+binned depths, against the level near quarter phase (1.0177): primary 33.7%, secondary 8.2%
+control: folded at P + 0.005 d the binned primary is 33.5% deep (smeared), against 33.7% at P
+in-eclipse scatter about the binned fold (|phase| < 0.08): P 3.06771: 0.38%, P 3.06888: 0.74%, P 3.06960: 1.09%
+wrote star27_TIC737546.png
